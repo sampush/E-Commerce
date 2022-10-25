@@ -1,0 +1,13 @@
+.cont{
+   box-sizing: border-box;
+   margin-left: 60px;
+    color:blue;
+}
+.cont h2{
+    color: blue;
+}
+
+.duet{
+    
+    padding: 10px;
+}

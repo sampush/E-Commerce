@@ -1,0 +1,24 @@
+.container{
+    background: url(/src/Component/bg.png);
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50%;
+    color: #fff;
+    padding: 40px;
+
+}
+.head-sec{
+ font-size: 50px;
+  padding-top: 10%;
+  
+}
+
+.bottom-sec{
+ justify-self: end;
+ font-size: 1.3rem;
+ text-align: right;
+ justify-content: center;
+ padding-right: 70px;
+}

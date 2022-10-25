@@ -1,0 +1,27 @@
+.top-men{
+    display: flex;
+    /* padding: 40px; */
+    gap: 10px;
+    /* align-items:center; */
+    justify-content: center;
+    
+}
+.line-text h2{
+    color:rgb(76, 76, 253);
+    font-family: grunge;
+    font-weight: 400;
+    font-size: 80px;
+}
+.new-pon p{
+    align-items:center;
+    justify-content: center;
+    color:black;
+    margin-left: 170px;
+}
+
+.hot-im{
+    margin-left: 100px;
+}
+.lot-tin{
+    margin-left: 370px; 
+}

@@ -1,0 +1,40 @@
+.ice-one{
+    display: flex;
+    gap: 10px;
+    box-sizing:border-box;
+    margin: 60px;
+    color:blue;
+ 
+
+  
+
+}
+.duet{
+    box-sizing:border-box;
+    box-sizing:10px;
+
+}
+.sphere {
+    width: 150px;
+    height: 150px;
+    border: 15px solid blue;
+    border-radius: 150px;
+    justify-items: center;
+    align-items:center;
+    background-color:blue;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+.sphere p{
+    color: azure;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25%;
+    padding-bottom: 50%;
+    
+    justify-items: center;
+}
