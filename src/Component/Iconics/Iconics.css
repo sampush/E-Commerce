@@ -4,6 +4,7 @@
     box-sizing:border-box;
     margin: 60px;
     color:blue;
+
  
 
   
@@ -12,6 +13,7 @@
 .duet{
     box-sizing:border-box;
     box-sizing:10px;
+    max-width: fit-content;
 
 }
 .sphere {
@@ -35,6 +37,5 @@
     justify-content: center;
     padding-top: 25%;
     padding-bottom: 50%;
-    
     justify-items: center;
 }

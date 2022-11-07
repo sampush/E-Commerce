@@ -1,0 +1,133 @@
+.mix-topp{
+    display: flex;
+    gap: 90px;
+    padding: 50px;
+    background-color: white;
+}
+.butt{
+    display: flex;
+    gap:1px;
+    color: rgb(81, 81, 252);
+    
+}
+.fum{
+    color: rgb(81, 81, 252);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(228, 237, 246);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.fum #size{
+    width: 100%;
+    color: rgb(81, 81, 252);
+    
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(30, 30, 238);
+    color: white;
+    padding: 34px 70px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+input[type=submit]:hover {
+    background-color: rgb(173, 173, 252);
+}
+.butt-2 input{
+    float:right;
+    color:rgb(61, 61, 255);
+    background-color:white;
+    
+    border: 1px solid black;
+}
+#mint{
+     color:rgb(245, 134, 29);
+}
+#bundle{
+    text-decoration: line-through;
+    color:#ccc;
+}
+#blic{
+    color:rgb(80, 80, 255);
+}
+#gen{
+    color:#ccc;
+}
+.smil{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.caro{
+    width: 100%;
+    direction: Vertical;
+    
+}
+.swip-tree{
+    display: flex;
+    gap: 30px;
+}
+.carousel-control-prev {
+    margin-left: -25px;
+    color:blue;
+}
+  
+.carousel-control-next {
+    margin-right: -25px;
+    color:blue;
+
+  }
+  .carousel-control{
+    color:blue;
+  }
+
+
+
+
+
+
+
+
+
+
+/* <Swiper
+// install Swiper modules
+modules={[Navigation, Pagination]}
+spaceBetween={1}
+// padding={5}
+slidesPerView={4}
+// direction={Vertical}
+navigation
+pagination={{ clickable: true }}
+onSwiper={(swiper) => console.log(swiper)}
+onSlideChange={() => console.log("slide change")}
+width={25}
+>
+<div className="duet">
+  <SwiperSlide>
+    <img src={Tin} alt="" />
+  </SwiperSlide>
+  <SwiperSlide>
+    <img src={Tin1} alt="" />
+  </SwiperSlide>
+  <SwiperSlide>
+    <img src={Tin2} alt="" />
+  </SwiperSlide>
+  <SwiperSlide>
+    <img src={Tin3} alt="" />
+  </SwiperSlide>
+  <SwiperSlide>
+    <img src={Tin4} alt="" />
+  </SwiperSlide>
+  <SwiperSlide>
+    <img src={Tin1} alt="" />
+  </SwiperSlide>
+</div>
+</Swiper> */

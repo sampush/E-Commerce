@@ -1,0 +1,16 @@
+#carte-p{
+    color: rgb(46, 46, 254);
+}
+.duct-flex{
+    display: flex;
+    gap: 40px;
+    padding-left: 20px;
+    margin: 30px;
+}
+.carte-h h1{
+    color: rgb(33, 33, 196);
+    padding-left: 30px;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

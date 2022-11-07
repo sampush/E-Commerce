@@ -1,0 +1,132 @@
+.complete-top h1{
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color:rgb(67, 67, 218)
+}
+.ice-one{
+    display: flex;
+    gap: 10px;
+    box-sizing:border-box;
+    margin: 60px;
+    color:blue;
+}
+
+.sphere {
+    width: 150px;
+    height: 150px;
+    border: 15px solid blue;
+    border-radius: 150px;
+    justify-items: center;
+    align-items:center;
+    background-color:blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sphere p{
+    color: azure;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25%;
+    padding-bottom: 50%;
+    justify-items: center;
+}
+.caro-2{
+    width: 40%;
+    direction: Vertical;
+}
+
+
+.mix-top{
+    display: flex;
+    gap: 90px;
+    padding: 50px;
+    background-color:rgb(0, 0, 0);
+    
+}
+.butt{
+    display: flex;
+    gap:1px;
+    color: rgb(81, 81, 252);
+    
+}
+.fum{
+    color: rgb(81, 81, 252);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(228, 237, 246);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.fum #size{
+    width: 100%;
+    color: rgb(81, 81, 252);
+    
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(30, 30, 238);
+    color: white;
+    padding: 34px 70px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+input[type=submit]:hover {
+    background-color: rgb(173, 173, 252);
+}
+.butt-2 input{
+    float:right;
+    color:rgb(61, 61, 255);
+    background-color:white;
+    
+    border: 1px solid black;
+}
+#mint{
+     color:rgb(245, 134, 29);
+}
+#bundle{
+    text-decoration: line-through;
+    color:#ccc;
+}
+#blic{
+    color:rgb(80, 80, 255);
+}
+#gen{
+    color:#ccc;
+}
+.smil{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.swip-tree{
+    display: flex;
+    gap: 30px;
+}
+.carousel-control-prev {
+    margin-left: -25px;
+    color:blue;
+}
+  
+.carousel-control-next {
+    margin-right: -25px;
+    color:blue;
+
+  }
+  .carousel-control{
+    color:blue;
+  }
+
+
+

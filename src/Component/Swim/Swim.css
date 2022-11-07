@@ -1,0 +1,11 @@
+.pic{
+    background: url(/src/Component/Back.png);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50%;
+    color: #fff;
+    /* padding: 40px; */
+
+}

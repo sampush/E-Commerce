@@ -1,15 +1,16 @@
 import React from "react";
 import Big from "../../Component/Big.png";
-import Clothe from "../Clothe.png";
-import Clothe1 from "../Clothe1.png";
-import Clothe2 from "../Clothe2.png";
-import Clothe3 from "../Clothe3.png";
-import { Navigation, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// import Clothe from "../Clothe.png";
+// import Clothe1 from "../Clothe1.png";
+// import Clothe2 from "../Clothe2.png";
+// import Clothe3 from "../Clothe3.png";
+// import { Navigation, Pagination } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 import "./Iconics.css";
+
 function Iconics() {
   return (
     <div>
@@ -22,7 +23,7 @@ function Iconics() {
 
         <div className="ice-two">
           <h2>NEW-INS</h2>
-          <Swiper
+          {/* <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination]}
             spaceBetween={1}
@@ -66,7 +67,7 @@ function Iconics() {
                 <p>$24</p>
               </SwiperSlide>
             </div>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
       <div className="sphere">

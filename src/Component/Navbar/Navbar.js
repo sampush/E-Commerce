@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import top from '../top.png'
+import top from '../Top.png'
 
 function Navbar() {
   return (
@@ -15,7 +15,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links">
+              <Link to="/collection" className="nav-links">
                 Collections
               </Link>
             </li>
@@ -25,7 +25,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links">
+              <Link to="/Brand" className="nav-links">
                 TheBrand
               </Link>
             </li>

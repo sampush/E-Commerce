@@ -1,0 +1,54 @@
+.shop-text h1 {
+    text-align: center;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.Shup-text {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+    margin: 90px;
+
+}
+
+.Shup-text p {
+    color: blue;
+
+}
+
+.shop-split {
+    display: flex;
+    gap: 168px;
+
+}
+
+#p-1 {
+    color: rgb(242, 193, 101);
+    font-weight:900;
+}
+
+#p-2 {
+    color: black;
+}
+
+@media (min-width:768px) {
+    .container-block {
+        padding: 4% 8%
+    }
+}
+
+/* Mobiles */
+@media (max-width:767px) {
+    .container-block {
+        padding: 11% 8%
+    }
+}
+
+@media (min-width:768px) {
+    .item-col-3 {
+        width: 29%
+    }
+}

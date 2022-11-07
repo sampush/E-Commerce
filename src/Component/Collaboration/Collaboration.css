@@ -3,7 +3,7 @@
     outline: none;
     box-sizing:none;
     border: none;
-    padding: 200px;
+    padding-top: 200px;
     font-family: grunge;
     background-color: rgb(245, 245, 239);
 }
@@ -22,7 +22,7 @@
    
     
 }
-.text-cs:hover h1{
+.text-cs h1:hover{
     color:rgb(93, 93, 217);
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
 }
 .section-2{
     color:rgb(62, 62, 246);
-    padding: 90px;
+    /* padding: 90px; */
 }
 /* marquee{ 
     padding: 10px;
@@ -62,7 +62,7 @@
     }
 } */
 .blink {
-    width: 100%;
+    width: 98vw;
 	line-height: 120px;
     color: black;
     font-family: grunge;
@@ -70,18 +70,18 @@
     white-space: nowrap;
     overflow: hidden;
     
-    padding: 10px;
+    /* padding: 10px; */
 }
 .blink h1 {
     display: inline-block;
     color: black;
-    animation: marquee 35s linear infinite;
+    /* animation: marquee 35s linear infinite; */
     border-bottom: 5px solid black;
 }
-@keyframes marquee {
+/* @keyframes marquee {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
-}
+} */
 
 #line{
     color:rgb(245, 134, 29);
