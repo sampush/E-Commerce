@@ -1,0 +1,61 @@
+.top-pay{
+    border-top: 1px solid rgb(99, 99, 102);
+    margin-top: 40px;
+    border-right: 1px solid rgb(99, 99, 102);
+    width: 700px;
+  
+}
+.paymet{
+    display: flex;
+    gap: 40px;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-left: 90px;
+
+   
+}
+
+.pooop{
+    font-size: 60px;
+  
+    
+}
+.apple{
+    
+    background-color:#ffff;  
+}
+.bot-fill{
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.ship-meth{
+    border: 0.5px solid rgb(67, 66, 66);
+    /* margin-top: 60px; */
+    padding: 10px;
+    box-sizing: border-box;
+    height: 85px;
+    line-height: 1;
+
+}
+.ship-split{
+    display: flex;
+    gap: 80px;
+    line-height: 0.7;
+    
+}
+.meth-1 {
+    margin-top: 60px;
+}
+.text-meth p{
+    color: blue;
+}
+p.thick {
+    font-weight: 600;
+  }

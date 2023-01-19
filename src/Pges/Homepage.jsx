@@ -18,6 +18,7 @@ function Homepage() {
        <Duties/>
        <Iconics/>
        <New/>
+       
        <Collaboration/>
        <Men/>
        <Follow/>

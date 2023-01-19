@@ -1,11 +1,13 @@
 import React from "react";
 import "./Top.css";
 import Blak from "../Blackimg.png";
-import Tin from "../imago/Tin.png";
+
+
 import Tin1 from "../imago/Tin1.png";
 import Tin2 from "../imago/Tin2.png";
 import Tin3 from "../imago/Tin3.png";
 import Tin4 from "../imago/Tin2.png";
+
 
 function Top() {
   return (
@@ -24,94 +26,13 @@ function Top() {
 
       <div className="swip-tree">
         <div className="caro">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-touch="false"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-               
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-               
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-         
-              ></button>
-               <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="3"
-              
-              ></button>
-               <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="4"
-                
-              ></button>
-               <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="5"
-                
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={Tin} class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src={Tin1} class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src={Tin2} class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src={Tin3} class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src={Tin4} class="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-              id="btn btn-primary"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+          <h4>&lt;</h4>
+          <img src={Tin2} alt=""/>
+          <img src={Tin1} alt=""/>
+          <img src={Tin2} alt=""/>
+          <img src={Tin3} alt=""/>
+          <img src={Tin4} alt=""/>
+          <h4>&gt;</h4> 
         </div>
 
         <div>

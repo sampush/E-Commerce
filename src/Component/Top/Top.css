@@ -73,6 +73,8 @@ input[type=submit]:hover {
 .swip-tree{
     display: flex;
     gap: 30px;
+    padding-top: 3em; 
+    padding-bottom: 6em; 
 }
 .carousel-control-prev {
     margin-left: -25px;
@@ -87,6 +89,13 @@ input[type=submit]:hover {
   .carousel-control{
     color:blue;
   }
+ 
+  .caro h4{
+   padding-top: 50px;
+    transform: rotate(90deg);
+    text-align: center;
+  }
+ 
 
 
 
